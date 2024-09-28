@@ -1,102 +1,136 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>The Pet Shop</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <div>
-        <blockquote
-        cite="https://www.brainyquote.com/authors/vince-lombardi-quotes">
+
+<head>
+    <title>The Pet Shop</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<div>
+    <blockquote cite="https://www.brainyquote.com/authors/vince-lombardi-quotes">
         <p>Perfection is not attaintable, but if we chase perfection we can catch
             excellence.</p>
-        </blockquote>
-        <p>-Vince Lombardi,<cite> BrainyQuote</cite></p>
-    </div>
-    <body>
-        <!--NAVBAR -->
-        <nav class="nav-bar">
-            <ul id="nav-border">
-               <li><a href="index.html">HOME</a></li> 
-               <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-            <ul>
-               <a href="#cat"><li>Cats & Kittens</li></a> 
-               <a href="#dog"><li>Dogs & Puppies</li></a>
-               <a href="#rabbit"><li>Rabbits</li></a>
-               <a href="#guineapigs"><li>Guinea Pigs</li></a>
-               <a href="#fish"><li>Fish</li></a>
-               <a href="#reptiles"><li>Reptiles</li></a>
-               <a href="#video"><li>Videos</li></a>
-            </ul>
-        </nav>
-        <!--HEADER-->
-        <header>
+    </blockquote>
+    <p>-Vince Lombardi,<cite> BrainyQuote</cite></p>
+</div>
+
+<body>
+    <!--NAVBAR -->
+    <nav class="nav-bar">
+        <ul id="nav-border">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <ul>
+            <a href="#cat">
+                <li>Cats & Kittens</li>
+            </a>
+            <a href="#dog">
+                <li>Dogs & Puppies</li>
+            </a>
+            <a href="#rabbit">
+                <li>Rabbits</li>
+            </a>
+            <a href="#guineapigs">
+                <li>Guinea Pigs</li>
+            </a>
+            <a href="#fish">
+                <li>Fish</li>
+            </a>
+            <a href="#reptiles">
+                <li>Reptiles</li>
+            </a>
+            <a href="#video">
+                <li>Videos</li>
+            </a>
+        </ul>
+    </nav>
+    <!--HEADER-->
+    <header>
+        <div>
+            <h1 class="animate-text">Welcome To The Pet Shop</h1>
+        </div>
+    </header>
+    <!-- PET IMAGES-->
+    <section>
+        <div>
+            <h2>Choose a Pet!</h2>
             <div>
-                <h1 class="animate-text">Welcome To The Pet Shop</h1>
-            </div>
-        </header>
-        <!-- PET IMAGES-->
-         <section>
-            <div>
-                <h2>Choose a Pet!</h2>
-                <div>
                 <!--CAT IMAGE-->
                 <div id="cat" class="column">
-                    <h3>Cats & Kittens</h3>
-                    <img src="images/cat.jpg" alt="Picture of Kittens">
+                    <div class="image-container">
+                        <h3>Cats & Kittens</h3>
+                        <img src="images/cat.jpg" alt="Picture of Kittens">
+                        <div class="overlay"></div>
                     </div>
+                </div>
                 <!--DOG IMAGE-->
                 <div id="dog" class="column">
-                    <h3>Dogs & Puppies</h3>
-                    <img src="images/dog.jpg" alt="Picure of Dogs">
+                    <div class="image-container">
+                        <h3>Dogs & Puppies</h3>
+                        <img src="images/dog.jpg" alt="Picure of Dogs">
+                        <div class="overlay"></div>
                     </div>
+                </div>
                 <!-- RABBIT IMAGE-->
                 <div id="rabbit" class="column">
-                    <h3>Rabbits</h3>
-                    <img src="images/rabbits.jpg" alt="Pictue of Rabbits">
+                    <div class="image-container">
+                        <h3>Rabbits</h3>
+                        <img src="images/rabbits.jpg" alt="Pictue of Rabbits">
+                        <div class="overlay"></div>
                     </div>
+                </div>
                 <!-- GUINEA PIG IMAGE-->
                 <div id="guineapigs" class="column">
-                    <h3>Guinea Pigs</h3>
-                    <img src="images/guineaPigs.jpg" alt="Pictue of Guinea Pigs">
+                    <div class="image-container">
+                        <h3>Guinea Pigs</h3>
+                        <img src="images/guineaPigs.jpg" alt="Pictue of Guinea Pigs">
+                        <div class="overlay"></div>
                     </div>
+                </div>
                 <!-- FISH IMAGE-->
                 <div id="fish" class="column">
-                    <h3>Fish</h3>
-                    <img src="images/fish.jpg" alt="Pictue of Fish">
+                    <div class="image-container">
+                        <h3>Fish</h3>
+                        <img src="images/fish.jpg" alt="Pictue of Fish">
+                        <div class="overlay"></div>
                     </div>
+                </div>
                 <!-- REPTILE IMAGE-->
                 <div id="reptiles" class="column">
-                    <h3>Reptiles</h3>
-                    <img src="images/beardedDragon.jpg" alt="Pictue of Bearded Dragon">
+                    <div class="image-container">
+                        <h3>Reptiles</h3>
+                        <img src="images/beardedDragon.jpg" alt="Pictue of Bearded Dragon">
+                        <div class="overlay"></div>
                     </div>
+                </div>
             </div>
-         </section>
-         <!--VIDEOS-->
-         <section>
-            <!--DOG VIDEO-->
-            <div id="video" class="container">
-                <h3>Videos</h3>
-                <iframe width="1280" height="720" src="https://www.youtube.com/embed/ng58pNPDDW4"></iframe>
-            </div>
-         </section>
-        <!--FOOTER-->
-        <footer>
-            <table>
-                <tr>
-                    <td>
-                        <p>The Pet Shop!&copy;</p>
-                    </td>
-                    <td>
-                        <p>123 Square Ave</p>
-                        <p>Portland, OR, 97204</p>
-                    </td>
-                    <td>
-                        <p>503-235-3966</p>
-                    </td>
-                </tr>
-            </table>
-        </footer>
-    </body>
+    </section>
+    <!--VIDEOS-->
+    <section>
+        <!--DOG VIDEO-->
+        <div id="video" class="container">
+            <h3>Videos</h3>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/ng58pNPDDW4"></iframe>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <p>The Pet Shop!&copy;</p>
+                </td>
+                <td>
+                    <p>123 Square Ave</p>
+                    <p>Portland, OR, 97204</p>
+                </td>
+                <td>
+                    <p>503-235-3966</p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
 </html>
