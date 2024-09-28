@@ -3,6 +3,7 @@
     <head>
         <title>The Pet Shop</title>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <div>
         <blockquote
@@ -14,8 +15,8 @@
     </div>
     <body>
         <!--NAVBAR -->
-        <nav>
-            <ul>
+        <nav class="nav-bar">
+            <ul id="nav-border">
                <li><a href="index.html">HOME</a></li> 
                <li><a href="contact.html">CONTACT</a></li>
             </ul>
@@ -32,7 +33,7 @@
         <!--HEADER-->
         <header>
             <div>
-                <h1>Welcome To The Pet Shop</h1>
+                <h1 class="animate-text">Welcome To The Pet Shop</h1>
             </div>
         </header>
         <!-- PET IMAGES-->
@@ -41,32 +42,32 @@
                 <h2>Choose a Pet!</h2>
                 <div>
                 <!--CAT IMAGE-->
-                <div id="cat">
+                <div id="cat" class="column">
                     <h3>Cats & Kittens</h3>
                     <img src="images/cat.jpg" alt="Picture of Kittens">
                     </div>
                 <!--DOG IMAGE-->
-                <div id="dog">
+                <div id="dog" class="column">
                     <h3>Dogs & Puppies</h3>
                     <img src="images/dog.jpg" alt="Picure of Dogs">
                     </div>
                 <!-- RABBIT IMAGE-->
-                <div id="rabbit">
+                <div id="rabbit" class="column">
                     <h3>Rabbits</h3>
                     <img src="images/rabbits.jpg" alt="Pictue of Rabbits">
                     </div>
                 <!-- GUINEA PIG IMAGE-->
-                <div id="guineapigs">
+                <div id="guineapigs" class="column">
                     <h3>Guinea Pigs</h3>
                     <img src="images/guineaPigs.jpg" alt="Pictue of Guinea Pigs">
                     </div>
                 <!-- FISH IMAGE-->
-                <div id="fish">
+                <div id="fish" class="column">
                     <h3>Fish</h3>
                     <img src="images/fish.jpg" alt="Pictue of Fish">
                     </div>
                 <!-- REPTILE IMAGE-->
-                <div id="reptiles">
+                <div id="reptiles" class="column">
                     <h3>Reptiles</h3>
                     <img src="images/beardedDragon.jpg" alt="Pictue of Bearded Dragon">
                     </div>
@@ -75,7 +76,7 @@
          <!--VIDEOS-->
          <section>
             <!--DOG VIDEO-->
-            <div id="video">
+            <div id="video" class="container">
                 <h3>Videos</h3>
                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/ng58pNPDDW4"></iframe>
             </div>
