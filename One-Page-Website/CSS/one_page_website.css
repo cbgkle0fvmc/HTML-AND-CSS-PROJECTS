@@ -1,0 +1,38 @@
+h1 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+}
+
+p a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+
+input[type="text"]{
+    border: 5px rgb(24, 13, 180);
+    border-radius: 10px;
+    margin: 5px auto;
+}
+
+input[type="text"]:focus{
+    background-color: lightblue;
+}
+
+input[type="email"]{
+    border: 5px slategray;
+    border-radius: 10px;
+}
+
+input[type="email"]:focus{
+    background-color: lightblue;
+}
+
+input[type="tel"]{
+    border: 5px slategray;
+    border-radius: 10px;
+}
+
+input[type="tel"]:focus{
+    background-color: lightblue;
+}

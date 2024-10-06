@@ -477,7 +477,3 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: rgb(247, 177, 188);
 }
-
-.about{
-    text-align: center;
-}
