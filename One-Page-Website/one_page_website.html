@@ -2,6 +2,7 @@
 <html>
 <header>
     <link href="css/one_page_website.css" rel="stylesheet">
+    <script src="JS/one_page_website.js"></script>
     <title>Favorite Recipes</title>
     <h1>Our Favorite Recipes</h1>
     <p>Through the years, my wife and I have found some great recipes that we tend to lose or forget
@@ -27,16 +28,14 @@
 <section>
     <div id="italian">
         <h2>Our favorite italian recipes.</h2>
-        <img src="https://www.onceuponachef.com/images/2018/01/Chicken-Marsala-scaled.jpg" alt="Chicken Marsala">
-        <a href="https://natashaskitchen.com/chicken-marsala-recipe/">Chicken Marsala</a>
+        <img src="https://www.onceuponachef.com/images/2018/01/Chicken-Marsala-scaled.jpg" alt="Chicken Marsala" style="width:auto;height:600px;">
+        <a href="https://natashaskitchen.com/chicken-marsala-recipe/"><br>Chicken Marsala</a>
     </div>
     <div id="newmexican">
         <h2>Our favorite New Mexican Recipes</h2>
         <img src="https://149359033.v2.pressablecdn.com/wp-content/uploads/2017/05/Garcia13-scaled.jpeg"
-            alt="Carne Anovada" <a
-            href="https://www.newmexicanfoodie.com/stuffed-sopapillas-filled-with-carne-adovada/">
-        Carne Anovada</a>
-        </a>
+            alt="Carne Anovada" style="width:600px;height:auto;">
+        <a href="https://www.newmexicanfoodie.com/stuffed-sopapillas-filled-with-carne-adovada/"><br>Carne Anovada</a>
     </div>
 </section>
 <!--VIDEOS-->
@@ -47,6 +46,77 @@
         <iframe width="1280" height="720" src="https://www.youtube.com/embed/mYqn8Zjbqkc?si=Bri-1XMZQ1qWN_T2"></iframe>
     </div>
 
+</section>
+
+<section>
+    <!--IMAGES USED TO OPEN THE LIGHTBOX-->
+    <div class="row">
+        <div class="column">
+            <img src="images/plant1-small.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="images/plant2-small.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="images/plant3-small.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="images/plant4-small.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        </div>
+    </div>
+
+    <!--THE MODAL/LIGHTBOX-->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext"> 1 / 4</div>
+                <img src="images/plant1.png" style="width: 100%;">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext"> 2 / 4</div>
+                <img src="images/plant2.png" style="width: 100%;">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext"> 3 / 4</div>
+                <img src="images/plant3.png" style="width: 100%;">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext"> 4 / 4</div>
+                <img src="images/plant4.png" style="width: 100%;">
+            </div>
+
+            <!--NEXT/PREVIOUS CONTROLS-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!--CAPTION TEXT-->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!--THUMBNAIL IMAGE CONTROLS-->
+            <div class="column">
+                <img class="demo" src="images/plant1-small.png" onclick="currentSlide(1)" alt="Photo 1">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="images/plant2-small.png" onclick="currentSlide(2)" alt="Photo 2">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="images/plant3-small.png" onclick="currentSlide(3)" alt="Photo 3">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="images/plant4-small.png" onclick="currentSlide(4)" alt="Photo 4">
+            </div>
+        </div>
+    </div>
 </section>
 
 <body>
