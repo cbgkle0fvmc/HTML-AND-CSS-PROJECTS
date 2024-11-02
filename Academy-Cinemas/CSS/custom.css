@@ -315,3 +315,18 @@ footer{
     height: 130px; /*Specifically styles the footer image seperate from the
     other images on the page and overrides the img type selector styling*/
 }
+
+/*POPOVERS*/
+.star-rating{
+    width: 80%;
+}
+
+/*TOAST*/
+
+.custom-toast {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
